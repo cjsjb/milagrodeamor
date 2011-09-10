@@ -4,15 +4,16 @@
 
 		% 1 intro
 		\mark \default
-		\skip 1*8
+		\skip 2*11
 
 		% 2 estrofa 1
 		\mark \default
-		\skip 1*8
+		\skip 2*8
 
 		% 3 estrofa 2
 		\mark \default
-		\skip 1*9
+		\skip 2*9
+		\skip 1
 
 		% 4 coro 1
 		\mark \default
@@ -22,34 +23,31 @@
 		\mark \default
 		\skip 1*9
 
-		% 6 estrofa 3
+		% 6 interludio
+		\mark \default
+		\skip 1*9
+
+		% 7 estrofa 3
 		\mark \default
 		\skip 1*8
 
-		% 7 estrofa 4
+		% 8 estrofa 4
 		\mark \default
 		\skip 1*9
 
-		% 8 coro 3
+		% 9 coro 3
 		\mark \default
 		\skip 1*9
 
-		% 9 coro 4
+		% 10 coro 4
 		\mark \default
 		\skip 1*9
 
-		% 10 puente
+		% 11 puente
 		\mark \default
-		\skip 1*5
+		\skip 1*4
 
-		% 11 coro 5
+		% 12 outro
 		\mark \default
-		\skip 1*9
-
-		% 12 coro 6
-		\mark \default
-		\skip 1*9
-
-		% 13 finale
-		\mark \default
+		\skip 1*15
 		}
