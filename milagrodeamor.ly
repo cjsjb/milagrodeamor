@@ -18,11 +18,11 @@ global = {
 	\time 2/4
 	\skip 2*28  %% 1-28
 	% \time 4/4
-	\skip 1*77  %% 29-105
+	\skip 1*82  %% 29-110
 }
 globalTempo = {
 	\tempo 4 = 52  \skip 1*14
-	\tempo 4 = 116  \skip 1*77
+	\tempo 4 = 116  \skip 1*82
 }
 \score {
 	<<
@@ -33,12 +33,12 @@ globalTempo = {
 		\include "milagrodeamor-marcas.inc"
 		\new StaffGroup <<
 			\include "milagrodeamor-soprano.inc"
-			%\include "milagrodeamor-mezzo.inc"
-			%\include "milagrodeamor-tenor.inc"
+			\include "milagrodeamor-mezzo.inc"
+			\include "milagrodeamor-tenor.inc"
 		>>
-		%\include "milagrodeamor-violin.inc"
+		\include "milagrodeamor-violin.inc"
 		%\include "milagrodeamor-huevo.inc"
 	>>
 
-	\layout { }
+	\layout { \context { \RemoveEmptyStaffContext } }
 }
