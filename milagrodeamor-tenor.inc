@@ -10,7 +10,6 @@
 		\override Voice.TextScript #'padding = #2.0
 		\override MultiMeasureRest #'expand-limit = 1
 
-		\time 2/4
 		\clef "treble_8"
 		\key a \major
 
