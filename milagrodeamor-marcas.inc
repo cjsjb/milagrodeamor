@@ -25,7 +25,7 @@
 
 		% 6 interludio
 		\mark \default
-		\skip 1*9
+		\skip 1*8
 
 		% 7 estrofa 3
 		\mark \default
@@ -49,5 +49,5 @@
 
 		% 12 outro
 		\mark \default
-		\skip 1*15
+		\skip 1*10
 		}
