@@ -123,7 +123,7 @@
 		cis' 1  |
 	}
 
-	\lyricsto "voz-tenor" \new Lyrics \lyricmode {
+	\new Lyrics \lyricsto "voz-tenor" {
 		% intro
 		Uh, ah, uh, ah, uh, __ ah.
 

@@ -130,7 +130,7 @@
 		\bar "|."
 	}
 
-	\lyricsto "voz-soprano" \new Lyrics \lyricmode {
+	\new Lyrics \lyricsto "voz-soprano" {
 		% intro
 		Uh, ah, uh, ah, uh, __ ah.
 
