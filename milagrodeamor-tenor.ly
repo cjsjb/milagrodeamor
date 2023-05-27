@@ -5,6 +5,7 @@
 \header {
 	title = "Milagro de amor"
 	tagline = "Coro Juvenil San Juan Bosco"
+	composer = "María Constanza Fernández"
 	instrument = "Tenor"
 }
 #(set-global-staff-size 20)
