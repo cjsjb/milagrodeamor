@@ -12,7 +12,6 @@
 
 		\clef "treble"
 		\key a \major
-
 		R2*2  |
 		a' 2  |
 		gis' 2  |
@@ -45,6 +44,7 @@
 		b 8. b 16 ~ b 8 cis'  |
 		b 4 ~ b  |
 		R2  |
+		\time 4/4
 		r2 r4 e'  |
 %% 30
 		e' 4. a' a' 4  |
@@ -127,6 +127,8 @@
 		gis' 2. gis' 4  |
 		a' 1 ~  |
 		a' 1  |
+%% 105
+		R1  |
 		\bar "|."
 	}
 

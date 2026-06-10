@@ -12,7 +12,6 @@
 
 		\clef "treble_8"
 		\key a \major
-
 		R2*2  |
 		cis' 2  |
 		b 2  |
@@ -37,6 +36,7 @@
 		g 8. g 16 ~ g 8 g  |
 		gis 4 ~ gis  |
 		R2  |
+		\time 4/4
 		r2 r4 e  |
 %% 30
 		e 4. a a 4  |
@@ -121,6 +121,9 @@
 		b 2. b 4  |
 		cis' 1 ~  |
 		cis' 1  |
+%% 105
+		R1  |
+		\bar "|."
 	}
 
 	\new Lyrics \lyricsto "voz-tenor" {

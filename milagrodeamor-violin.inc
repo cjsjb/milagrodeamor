@@ -12,8 +12,8 @@
 
 		\clef "treble"
 		\key a \major
-
 		R2*28  |
+		\time 4/4
 		r8 e' fis' gis' a' b' cis'' d''  |
 %% 30
 		e'' 1  |
@@ -31,7 +31,7 @@
 		R1*16  |
 		r8 e' fis' gis' a' b' cis'' d''  |
 		e'' 1  |
-		R1*31  |
+		R1*32  |
 		\bar "|."
 	}
 >>
