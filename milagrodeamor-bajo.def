@@ -1,0 +1,98 @@
+bajo = {
+		$(let ((val (ly:parser-lookup 'easy))) (if (null? val) #{ #} val))
+
+		R2*28  |
+		R1  |
+%% 30
+		a,, 4. \4 cis, e, 4 \3  |
+		e, 4. \3 gis, 4 \2 b, 8 \2 e, \3 f, \3  |
+		fis, 4. \3 a, 4 \2 a, 8 \2 cis 4 \1  |
+		cis, 4. \4 e, \3 gis, 4 \2  |
+		d, 4. \3 fis, 4 fis, 8 a, 4 \2  |
+%% 35
+		d, 4. \3 fis, a, 4 \2  |
+		a,, 4. \4 cis, 4 cis, 8 e, 4 \3  |
+		e, 4. \3 gis, \2 b, 4 \2  |
+		e, 4. \3 gis, 4 \2 b, 8 \2 gis, \2 gis,,  |
+		a,, 4. \4 cis, 4 cis, 8 e, 4 \3  |
+%% 40
+		e, 4. \3 gis, 4 \2 b, 8 \2 e, \3 f, \3  |
+		fis, 4. \3 a, 4 \2 a, 8 \2 cis 4 \1  |
+		cis, 4. \4 e, \3 gis, 4 \2  |
+		d, 4. \3 fis, 4 fis, 8 a, 4 \2  |
+		d, 4. \3 fis, a, 4 \2  |
+%% 45
+		a,, 4. \4 cis, 4 cis, 8 e, 4 \3  |
+		e, 4. \3 gis, \2 b, 4 \2  |
+		r8 b, 4 \2 gis, 8 \2 e, \3 d, \3 cis, b,, \4  |
+		a,, 4. \4 cis, e, 4 \3  |
+		e, 4. \3 gis, 4 \2 b, 8 \2 e, \3 f, \3  |
+%% 50
+		fis, 4. \3 fis, \3 ~ fis, 8 \3 a,, \4  |
+		cis, 4. \3 e, \3 r8 cis,  |
+		d, 4. \3 fis, 4 fis, 8 a, 4 \2  |
+		d, 4. \3 f, 4 f, 8 a, 4 \2  |
+		a,, 4. \4 cis, e, 4 \3  |
+%% 55
+		e, 4. \3 gis, 4 \2 gis, 8 \2 b, 4 \2  |
+		a,, 4. \4 cis, \3 e, 4 \3  |
+		e, 4. \3 gis, 4 \2 b, 8 \2 e, \3 f, \3  |
+		fis, 4. \3 a, 4 \2 a, 8 \2 cis 4  |
+		cis, 4. \4 e, \3 gis, 8 \2 cis,  |
+%% 60
+		d, 4. \3 fis, 4 fis, 8 a, 4 \2  |
+		b,, 4. \4 d, 4 \3 b,, \4 b,, 8 \4  |
+		g,, 4. g,, r8 g,,  |
+		e, 4. e, a, 8 b,  |
+		a,, 4. \4 cis, 4 cis, 8 e, 4 \3  |
+%% 65
+		e, 4. \3 gis, 4 \2 b, 8 \2 e, \3 f, \3  |
+		fis, 4. \3 a, 4 \2 a, 8 \2 cis 4  |
+		cis, 4. \4 e, \3 gis, 8 \2 cis,  |
+		d, 4. \3 fis, 4 fis, 8 a, 4 \2  |
+		b,, 4. \4 b,, \4 r8 b,, \4  |
+%% 70
+		g,, 4. g,, r8 g,,  |
+		e, 4. e, r8 e,  |
+		e, 4. e, e, 4  |
+		a,, 4. \4 cis, 4 cis, 8 e, 4 \3  |
+		e, 4. \3 gis, 4 \2 b, 8 \2 e, \3 f, \3  |
+%% 75
+		fis, 4. \3 a, 4 \2 a, 8 \2 cis 4  |
+		cis, 4. \4 e, \3 gis, 4 \2  |
+		d, 4. \3 fis, 4 fis, 8 a, 4 \2  |
+		d, 4. \3 fis, a, 4 \2  |
+		a,, 4. \4 cis, 4 cis, 8 e, 4 \3  |
+%% 80
+		e, 4. \3 gis, \2 b, 4 \2  |
+		e, 4. \3 gis, 4 \2 b, 8 \2 gis, \2 gis,,  |
+		a,, 4. \4 cis, 4 cis, 8 e, 4 \3  |
+		e, 4. \3 gis, 4 \2 b, 8 \2 e, f,  |
+		fis, 4. \3 a, 4 \2 a, 8 \2 cis 4  |
+%% 85
+		cis, 4. \4 e, \3 gis, 4 \2  |
+		d, 4. \3 fis, 4 fis, 8 a, 4 \2  |
+		d, 4. \3 fis, a, 4 \2  |
+		a,, 4. \4 cis, 4 cis, 8 e, 4 \3  |
+		e, 4. \3 gis, \2 b, 4 \2  |
+%% 90
+		e, 4. \3 gis, 4 \2 gis, 8 \2 e, \3 e, \3  |
+		d, 4. \3 fis, a, 4 \2  |
+		e, 4. \3 gis, \2 b, 4 \2  |
+		d, 4. \3 fis, a, 4 \2  |
+		e, 4 -\staccato \3 e, \3 -\staccato \3 r2  |
+%% 95
+		a,, 4. \4 cis, e, 4 \3  |
+		e, 4. \3 gis, \2 b, 4 \2  |
+		fis, 4. \3 a, \2 cis 4 \2  |
+		e, 4. \3 gis, \2 b, 4 \2  |
+		a,, 4. \4 cis, e, 4 \3  |
+%% 100
+		e, 4. \3 gis, \2 b, 4 \2  |
+		d, 4. \3 fis, \2 a, 4 \2  |
+		e, 4. \3 gis, \2 b, 4 \2  |
+		a,, 4. \4 cis, e, 4 \2  |
+		a,, 4. \4 e, 4 \3 d, 8 \3 cis, \3 b,, \4  |
+%% 105
+		a,, 1 \4  |
+}
